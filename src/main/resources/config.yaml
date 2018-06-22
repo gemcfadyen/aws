@@ -1,0 +1,14 @@
+# For table example
+aws_access_key_id: ${AWS_ACCESS_KEY_ID}
+aws_secret_access_key: ${AWS_SECRET_ACCESS_KEY}
+
+
+# For Stream example
+aws_access_key_id_for_offset_table: #{OFFSET_TABLE_AWS_ACCESS_KEY_ID}
+aws_secret_access_key_for_offset_table: #{OFFSET_TABLE_AWS_SECRET_KEY}
+
+aws_access_key_id_for_source_data: #{SOURCE_TABLE_AWS_ACCESS_KEY_ID}
+aws_secret_access_key_for_source_data: #{SOURCE_TABLE_AWS_SECRET_ACCESS_KEY}
+
+stream_name: #{STREAM_NAME}
+offset_table_name: #{OFFSET_TABLE_NAME}
